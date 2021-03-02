@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bulma/css/bulma.css';
 import styles from './accordion.module.css';
 
 function Accordion(props) { 
