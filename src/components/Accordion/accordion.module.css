@@ -1,0 +1,24 @@
+.accordionClose {
+    height: 0;
+    overflow: hidden;
+}
+
+.accordionOpen {
+    height: auto;
+    padding: 14px;
+    margin-top: 8px;
+}
+
+
+.btnStyleColse::after, .btnStyleColse::before{
+    background-color: #4a4a4a!important;
+    transition: all .2s linear!important;
+}
+
+
+.btnStyleOpen::after, .btnStyleOpen::before {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg)!important;
+    background-color: #4a4a4a!important;
+    transition: all .2s linear!important;
+}
+
